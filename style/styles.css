@@ -15,13 +15,13 @@ body {
 
 header {
     position: relative;
-    background-image: url('/images/headerss.jpg');
+    background-image: url('borz_home/images/headerss.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 40vh;
-    z-index: -1;
+    /*z-index: -1;*/
     color: aliceblue;
     display: flex;
     flex-direction: row;
@@ -31,6 +31,8 @@ header {
         position: absolute;
         top: 5px;
         right: 15px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -117,9 +119,6 @@ header h1, header p {
     align-items: center;
 }
 
-#phoneLink {
-    margin-left: 50px;
-}
 
 @media (max-width: 768px) {
     body {
